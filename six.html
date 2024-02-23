@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Ships: Orion-->
+<head>
+  <link rel="stylesheet" href="webstyle.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-modified.png">
+
+  <title>Solar</title>
+</head>
+
+<body class="crew">
+  <header class="primary-header flex">
+    <div>
+      <img src="./images/logo.svg" alt="space logo" class="logo">
+    </div>
+
+    <nav>
+      <ul id="primary-navigation" class="primary-navigation underline-indicators flex">
+        <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="index.html"><span>00</span>Home</a>
+        <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="one.html"><span>01</span>Moons</a>
+        <li class="active"><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="two.html"><span>02</span>Ships</a>
+        <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="404.html"><span></span>404</a>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main" class="grid-container grid-container--crew flow">
+    <h1 class="numbered-title"><span aria-hidden="true">02</span> Meet your spaceships</h1>
+    
+    <div class="dot-indicators flex">
+      <button aria-selected="false" onclick="window.location.href='four.html';"></button>
+      <button aria-selected="false" onclick="window.location.href='five.html';"></button>
+      <button aria-selected="true" onclick="window.location.href='six.html';"></button>
+    </div>
+    
+    <article class="crew-details flow">
+      <header class="flow flow--space-small">
+        <h2 class="fs-600 ff-serif uppercase">Titan</h2>
+        <p class="fs-700 uppercase ff-serif">Huygens</p>
+      </header>
+      <p>Huygens was like the ultimate space traveler, hitching a ride with the Cassini spacecraft to Saturn and then braving the intense pressure and freezing temperatures of the moon Titan to give us a glimpse of its mysterious surface. This little probe was a true pioneer, transmitting the first images and data from the moon of another planet, making us all feel like armchair explorers. Plus, it's just fun to say "Huygens."</p>
+    </article>
+    
+    <img src="images/02/huygens.png" alt="Huygens" width="auto" height="300">
+  </main>
+
+  <footer class="footer flex">
+    <div>©2024 Muskan Manwani</div>
+    <div class="email">mmanwani@uoguelph.ca</div>
+  </footer>
+</body>
+
+</html>
