@@ -645,5 +645,27 @@ body {
     .grid-container--crew > .dot-indicators {
         justify-self: start;
     }
-
+    .grid-container--crew {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+      }
+      
+      .content-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        align-items: start;
+      }
+      
+      .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .image-container img {
+        max-width: 100%;
+        height: auto;
+      }
 }
